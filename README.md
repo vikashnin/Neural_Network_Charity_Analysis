@@ -18,10 +18,14 @@ The variables that were neither a target or feature was EIN and NAME and was rem
 In layer 1, we started with 80 neurons with activation sigmoid. For layer 2, we did 20 neurons and changed to activation relu. For layer 3, we chose 40 neurons and actiavtion sigmoid. Lastly layer 4 had 20 neurons and was a sigmoid activation once again. 
 
 2. Were you able to achieve the target model performance?
-No, I was not able to achieve the target model performance.
+No, I was not able to to achieve the target model performance.
+![Screen Shot 2022-07-17 at 4 15 16 PM](https://user-images.githubusercontent.com/98666231/179428751-006a5172-0f52-45e8-ae6a-d8e487c4addf.png)
+![Screen Shot 2022-07-17 at 4 12 12 PM](https://user-images.githubusercontent.com/98666231/179428755-0d3f9e21-bef6-41e3-a0a0-6cdbab7643d4.png)
+![Screen Shot 2022-07-17 at 4 09 49 PM](https://user-images.githubusercontent.com/98666231/179428757-18525cec-69f9-44bd-a44d-532e52243b8f.png)
+
 
 3. What steps did you take to try and increase model performance?
-If we increase the neurons on one of the hidden layers. We can improve the model performance.
+If we increase the neurons on one of the hidden layers. We can improve the model performance and I changed my epochs to 100.
 
 ## Summary
 The model gave a 72% accuracy, which did not reach the target model. I would recommend using the random forest classifer because it will randomly sample the preprocessed data and buliding several smaller and simpler decision trees. Random forest classifer is also robust to outliers and nonlinear data and it runs well on large datasets.
